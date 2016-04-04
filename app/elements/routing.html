@@ -18,11 +18,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     // Removes end / from app.baseUrl which page.base requires for production
     if (window.location.port === '') {  // if production
-      //page.base(app.baseUrl.replace(/\/$/, ''));
+      //page.base(app.baseUrl);
     }
     console.log("BaseUrl replaced:", app.baseUrl.replace(/\/$/, ''));
     if (window.location.pathname !== '/') {
-      page.base(window.location.pathname);
+      page.base(window.location.pathname.replace(/\/$/, ''));
     }
     console.log("Pathname:", window.location.pathname);
     // Middleware
