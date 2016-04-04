@@ -20,9 +20,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     if (window.location.port === '') {  // if production
       //page.base(app.baseUrl.replace(/\/$/, ''));
     }
+    console.log("BaseUrl replaced:", app.baseUrl.replace(/\/$/, ''));
     if (window.location.pathname !== '/') {
       page.base(window.location.pathname);
     }
+    console.log("Pathname:", window.location.pathname);
     // Middleware
     function scrollToTop(ctx, next) {
       app.scrollPageToTop();
