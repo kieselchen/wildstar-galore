@@ -1,0 +1,127 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="lore-entries">
+  <template>
+    <style>
+      :host {display: block;}
+      article {
+        margin: 10px;
+      }
+
+      .item {
+        background: #031719;
+        border: 1px solid #072e2f;
+        margin-bottom: 20px;
+      }
+
+      .item paper-item,
+      .item footer {
+        background: #072e2f;
+        padding: 7px;
+      }
+
+      .item paper-item {
+        font-weight: bold;
+        min-height: 0;
+        cursor: pointer;
+      }
+
+      .item paper-item span {
+        width: 50px;
+        height: 32px;
+        text-align: center;
+      }
+
+      .item div{
+        border: 1px solid #072e2f;
+        padding: 10px;
+        color: #c6e6da;
+      }
+
+      .item footer {
+        background: #072e2f;
+        color: #226464;
+        font-size: 10px;
+        font-style: italic;
+        text-align: right;
+      }
+
+      .item footer a {
+        color: #226464;
+      }
+    </style>
+
+    <!--<iron-ajax id="jsonFile" auto handle-as="json" last-response="{{data}}" on-response="handleResponse"></iron-ajax>-->
+    <iron-ajax id="jsonFile" auto handle-as="json" last-response="{{data}}" on-response="handleResponse"></iron-ajax>
+
+    <!--<iron-list items="[[items]]" as="item" scroll-target="html">-->
+      <!--<template>-->
+        <!--<article>-->
+          <!--<div class="item">-->
+            <!--<paper-item center-justified>-->
+              <!--<span>-->
+                <!--<img src="../../images/icons/icon-{{item.sourcetype}}.png"-->
+                           <!--alt="{{item.sourcetype}}"-->
+                           <!--width="32px"-->
+                           <!--height="32px">-->
+              <!--</span>-->
+              <!--{{item.headline}}-->
+            <!--</paper-item>-->
+            <!--<div inner-h-t-m-l="{{item.content}}"></div>-->
+            <!--<footer><a href="{{item.source}}" target="_blank"># Source</a></footer>-->
+          <!--</div>-->
+        <!--</article>-->
+      <!--</template>-->
+    <!--</iron-list>-->
+
+
+    <template is="dom-repeat" items="{{items}}">
+      <article>
+        <div class="item">
+          <paper-item center-justified onclick="toggle(this)" id="#item{{jsonfile}}{{item.index}}">
+              <span>
+                <img src="../../images/icons/icon-{{item.sourcetype}}.png"
+                     alt="{{item.sourcetype}}"
+                     width="32px"
+                     height="32px">
+              </span>
+            {{item.headline}}
+          </paper-item>
+          <iron-collapse id="item{{jsonfile}}{{item.index}}" tabindex="{{item.index}}">
+            <div id="articlecontent" inner-h-t-m-l="{{item.content}}"></div>
+            <footer><a href="{{item.source}}" target="_blank"># Source</a></footer>
+          </iron-collapse>
+        </div>
+      </article>
+    </template>
+  </template>
+
+  <script>
+    (function() {
+      'use strict';
+      Polymer({
+        is: 'lore-entries',
+        properties: {
+          jsonfile: String,
+          selector: String,
+          items: {
+            type: Array,
+            reflectToAttribute: true,
+            notify: true
+          }
+        },
+        ready: function() {
+          this.$.jsonFile.url = '../../data/lore-' + this.jsonfile + '.json';
+          this.$.jsonFile.generateRequest();
+        },
+        handleResponse: function(request) {
+          this.items = request.detail.response;
+        }
+      });
+    })();
+
+    function toggle(e) {
+      document.querySelector(e.id).toggle();
+    }
+  </script>
+</dom-module>

@@ -1,0 +1,27 @@
+<dom-module id="lore-categories">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <iron-ajax url="../../data/categories.json" last-response="{{data}}" auto></iron-ajax>
+    <template is="dom-repeat" items="{{data}}" class="category"><a data-route="{{item}}" href="{{baseUrl}}{{item}}"><paper-icon-button class="button-panel hidden" src="../../images/btn/btn-{{item}}.png"></paper-icon-button></a></template>
+  </template>
+
+  <script>
+    (function() {
+      'use strict';
+
+      Polymer({
+        is: 'lore-categories',
+        properties: {
+          items: {
+            type: Array,
+            notify: true,
+          }
+        }
+      });
+    })();
+  </script>
+</dom-module>

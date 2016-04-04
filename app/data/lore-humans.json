@@ -1,0 +1,26 @@
+[
+  {
+    "index": 0,
+    "headline": "this is my question a",
+    "content": "this is my answer",
+    "source": "this is the source",
+    "sourcetype": "loremageddon",
+    "expanded": true
+  },
+  {
+    "index": 1,
+    "headline": "this is my question s",
+    "content": "this is my answer",
+    "source": "this is the source",
+    "sourcetype": "loremageddon",
+    "expanded": true
+  },
+  {
+    "index": 2,
+    "headline": "this is my question d",
+    "content": "this is my answer",
+    "source": "this is the source",
+    "sourcetype": "loremageddon",
+    "expanded": true
+  }
+]
