@@ -80,7 +80,7 @@
         <div class="item">
           <paper-item center-justified onclick="toggle(this)" id="#item{{jsonfile}}{{item.index}}">
               <span>
-                <img src="../../images/icons/icon-{{item.sourcetype}}.png"
+                <img src="images/icons/icon-{{item.sourcetype}}.png"
                      alt="{{item.sourcetype}}"
                      width="32px"
                      height="32px">
@@ -111,7 +111,7 @@
           }
         },
         ready: function() {
-          this.$.jsonFile.url = '../../data/lore-' + this.jsonfile + '.json';
+          this.$.jsonFile.url = 'data/lore-' + this.jsonfile + '.json';
           this.$.jsonFile.generateRequest();
         },
         handleResponse: function(request) {
