@@ -6,21 +6,5 @@
     "source": "https://twitter.com/DavenportRina/status/712704785699512324",
     "sourcetype": "twitter",
     "expanded": true
-  },
-  {
-    "index": 1,
-    "headline": "this is my question s",
-    "content": "this is my answer",
-    "source": "this is the source",
-    "sourcetype": "twitter",
-    "expanded": true
-  },
-  {
-    "index": 2,
-    "headline": "this is my question d",
-    "content": "this is my answer",
-    "source": "this is the source",
-    "sourcetype": "twitter",
-    "expanded": true
   }
 ]
