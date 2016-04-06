@@ -20456,83 +20456,68 @@ module.exports = Array.isArray || function (arr) {
   });
 </script>
 <style is="custom-style">
-
-  /*
-   Polymer includes a shim for CSS Custom Properties that we can use for application theming.
-   Below, you'll find the default palette for the Polymer Starter Kit layout. Feel free to play
-   with changing the colors used or generate your own palette of colours at MaterialPalette.com.
-
-   See https://www.polymer-project.org/1.0/docs/devguide/styling.html#xscope-styling-details
-   for further information on custom CSS properties.
-   */
-
   /* Application theme */
 
   :root {
-    --primary-color-darker: #031719;
-    --primary-color-dark: #072e2f;
-    --primary-color-medium: #226464;
-    --primary-color-light: #a2ffcd;
-    --primary-color-lighter: #c6e6da;
+    /*--primary-color-darker: #031719;*/
+    /*--primary-color-dark: #072e2f;*/
+    /*--primary-color-medium: #226464;*/
+    /*--primary-color-light: #a2ffcd;*/
+    /*--primary-color-lighter: #c6e6da;*/
 
-    --link-color: #0079d3;
+    --primary-color-darker: #000000;
+    --color-dark: #050b19;
+    --primary-color-medium: #C0BDD7;
+    --primary-color-light: #ff0000;
+    --color-lighter: #ffffff;
+
+    --highlight-color: #ffe5b2;
+    --link-color: #a19ba6;
+    --hover-color: #aae8fd;
     --confirm-color: #a5d6a7;
     --info-color: #90caf9;
     --warning-color: #b69f50;
     --error-color: #d14f45;
+
+  --paper-menu-focused-item: {
+     background: #000000;
+    color: #ffffff;
+   }
+
+  --paper-menu-selected-item : {
+     background: #000000;
+     color: #ffffff;
+   }
 }
 
+
+
 /* General styles */
-  body {
-    color: var(--primary-color-light);
+  body, paper-scroll-header-panel {
+    background: var(--color-dark);
+    color: var(--color-lighter);
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   a {
     color: var(--link-color);
+    text-decoration: none;
   }
 
-  header {
-    background: var(--primary-color-medium);
-  }
-
-  footer {
-    background: var(--primary-color-medium);
+  a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
   }
 
   paper-scroll-header-panel {
-    background: var(--primary-color-darker);
-  }
-
-  paper-menu {
-    background: var(--primary-color-darker);
-  }
-
-  paper-menu a {
-    @apply(--layout-horizontal);
-    @apply(--layout-center);
-    text-decoration: none;
-    color: var(--primary-color-light);
-    font-family: 'Roboto', 'Noto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    min-height: 48px;
-    padding: 0 16px;
-  }
-
-  .paper-menu > .iron-selected {
-    background: var(--primary-color-dark);
-  }
-
-  #drawer.paper-drawer-panel > [drawer] {
-    border-right: 1px solid var(--primary-color-light);
+    border-right: 1px solid #3e3e47;
   }
 
   paper-toolbar {
     background-image: url("../images/header.jpg");
-  background-color: var(--primary-color-medium);
+    background-color: var(--color-dark);
   }
 
   paper-scroll-header-panel {
@@ -20540,7 +20525,7 @@ module.exports = Array.isArray || function (arr) {
   }
 
   paper-material {
-    background: var(--primary-color-dark);
+    background: var(--color-dark);
     border-radius: 2px;
     height: 100%;
     padding: 16px 0 16px 0;
@@ -20555,6 +20540,23 @@ module.exports = Array.isArray || function (arr) {
     /* Required for main area's paper-scroll-header-panel custom condensing transformation */
     -webkit-transform-origin: left center;
     transform-origin: left center;
+  }
+
+  .item h2{
+    color: #8bd4ff;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .item i {
+    color: #ffe5b2;
+    font-size: 10px;
+    font-style: normal;
+  }
+
+  .item b {
+    color: #ffe5b2;
   }
 
   #mainToolbar .middle-container  {
@@ -20604,15 +20606,6 @@ module.exports = Array.isArray || function (arr) {
       padding-right: 30px;
     }
   }
-
-  /* Material Design Adaptive Breakpoints */
-  /*
-    Below you'll find CSS media queries based on the breakpoint guidance
-    published by the Material Design team. You can choose to use, customise
-    or remove these breakpoints based on your needs.
-
-    http://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoints
-   */
 
   /* mobile-small */
   @media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) { }
@@ -20670,7 +20663,69 @@ module.exports = Array.isArray || function (arr) {
     </style>
   </template>
 </dom-module>
-<dom-module id="lore-categories" assetpath="lore-categories/">
+<dom-module id="side-bar" assetpath="side-bar/">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+
+            paper-menu {
+                margin-top: 20px;
+                margin-left: 20px;
+                position: absolute;
+                width: 155px;
+                padding: 9px 18px;
+                border: 1px solid #3e3e47;
+                border-radius: 5px;
+                background: #000;
+            }
+
+            a {
+                color: #a19ba6;
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: 2px;
+                line-height: 24px;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: block;
+            }
+
+            a:hover {
+                color: #aae8fd;
+            }
+
+            a:active {
+                color: #ffffff;
+            }
+        </style>
+        <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{data}}" auto=""></iron-ajax>
+        <paper-menu class="list" attr-for-selected="data-route" selected="[[route]]">
+            <a data-route="home" href=".{{baseUrl}}">Home</a>
+            <template is="dom-repeat" items="{{data}}">
+                <a data-route="{{item}}" href="./{{baseUrl}}{{item}}">{{item}}</a>
+            </template>
+        </paper-menu>
+
+    </template>
+
+    <script>
+        (function() {
+            'use strict';
+
+            Polymer({
+                is: 'side-bar',
+                properties: {
+                    items: {
+                        type: Array,
+                        notify: true,
+                    }
+                }
+            });
+        })();
+    </script>
+</dom-module><dom-module id="lore-categories" assetpath="lore-categories/">
   <template>
     <style>
       :host {
@@ -20678,7 +20733,7 @@ module.exports = Array.isArray || function (arr) {
       }
     </style>
     <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{data}}" auto=""></iron-ajax>
-    <template is="dom-repeat" items="{{data}}" class="category"><a data-route="{{item}}" href="./{{baseUrl}}{{item}}"><paper-icon-button class="button-panel hidden" src="images/btn/btn-{{item}}.png"></paper-icon-button></a></template>
+    <template is="dom-repeat" items="{{data}}"><a data-route="{{item}}" href="./{{baseUrl}}{{item}}"><paper-icon-button class="button-panel hidden" src="images/btn/btn-{{item}}.png"></paper-icon-button></a></template>
   </template>
 
   <script>
@@ -20699,52 +20754,75 @@ module.exports = Array.isArray || function (arr) {
 </dom-module><dom-module id="lore-entries" assetpath="lore-entries/">
   <template>
     <style>
-      :host {display: block;}
-      article {
-        margin: 10px;
-      }
+        :host {display: block;}
+        article {
+            margin: 10px;
+        }
 
-      .item {
-        background: #031719;
-        border: 1px solid #072e2f;
-        margin-bottom: 20px;
-      }
+        .item {
+            background: #000000;
+            border: 1px solid #3e3e47;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-family: 'Open Sans';
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            font-size: 12px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
 
-      .item paper-item,
-      .item footer {
-        background: #072e2f;
-        padding: 7px;
-      }
+        .item paper-item {
+            color: #a19ba6;
+            font-weight: 300;
+            letter-spacing: 2px;
+            line-height: 16px;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 0;
+            min-height: 0;
+        }
 
-      .item paper-item {
-        font-weight: bold;
-        min-height: 0;
-        cursor: pointer;
-      }
+        .item paper-item:hover {
+            color: #aae8fd;
+            background: #000000;
+        }
 
-      .item paper-item span {
-        width: 50px;
-        height: 32px;
-        text-align: center;
-      }
+        .item paper-item:focus {
+            color: #aae8fd;
+            background: #000000;
+        }
 
-      .item div{
-        border: 1px solid #072e2f;
-        padding: 10px;
-        color: #c6e6da;
-      }
 
-      .item footer {
-        background: #072e2f;
-        color: #226464;
-        font-size: 10px;
-        font-style: italic;
-        text-align: right;
-      }
+        .item paper-item span {
+            width: 32px;
+            height: 24px;
+            padding: 3px;
+            text-align: center;
+        }
 
-      .item footer a {
-        color: #226464;
-      }
+        .item div{
+            border: 1px solid #3e3e47;
+            padding: 10px;
+            color: #ffffff;
+        }
+
+        .item footer {
+            background: #000000;
+            color: #a19ba6;
+            font-size: 10px;
+            text-align: right;
+        }
+
+        .item footer a {
+            color: #a19ba6;
+            text-decoration: none;
+        }
+
+        .item footer a:hover {
+            color: #aae8fd;
+            text-decoration: none;
+        }
     </style>
 
     
@@ -20774,13 +20852,13 @@ module.exports = Array.isArray || function (arr) {
     <template is="dom-repeat" items="{{items}}">
       <article>
         <div class="item">
-          <paper-item center-justified="" onclick="toggle(this)" id="#item{{jsonfile}}{{item.index}}">
+          <paper-item center-justified="" onclick="toggle(this)" id="#item{{jsonfile}}{{index}}">
               <span>
-                <img src="images/icons/icon-{{item.sourcetype}}.png" alt="{{item.sourcetype}}" width="32px" height="32px">
+                <img src="images/icons/icon-{{item.sourcetype}}.png" alt="{{item.sourcetype}}" width="24px" height="24px">
               </span>
             {{item.headline}}
           </paper-item>
-          <iron-collapse id="item{{jsonfile}}{{item.index}}" tabindex="{{item.index}}">
+          <iron-collapse id="item{{jsonfile}}{{index}}" tabindex="{{index}}">
             <div id="articlecontent" inner-h-t-m-l="{{item.content}}"></div>
             <footer><a href="{{item.source}}" target="_blank"># Source</a></footer>
           </iron-collapse>
