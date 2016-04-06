@@ -3,52 +3,75 @@
 <dom-module id="lore-entries">
   <template>
     <style>
-      :host {display: block;}
-      article {
-        margin: 10px;
-      }
+        :host {display: block;}
+        article {
+            margin: 10px;
+        }
 
-      .item {
-        background: #031719;
-        border: 1px solid #072e2f;
-        margin-bottom: 20px;
-      }
+        .item {
+            background: #000000;
+            border: 1px solid #3e3e47;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-family: 'Open Sans';
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            font-size: 12px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
 
-      .item paper-item,
-      .item footer {
-        background: #072e2f;
-        padding: 7px;
-      }
+        .item paper-item {
+            color: #a19ba6;
+            font-weight: 300;
+            letter-spacing: 2px;
+            line-height: 16px;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 0;
+            min-height: 0;
+        }
 
-      .item paper-item {
-        font-weight: bold;
-        min-height: 0;
-        cursor: pointer;
-      }
+        .item paper-item:hover {
+            color: #aae8fd;
+            background: #000000;
+        }
 
-      .item paper-item span {
-        width: 50px;
-        height: 32px;
-        text-align: center;
-      }
+        .item paper-item:focus {
+            color: #aae8fd;
+            background: #000000;
+        }
 
-      .item div{
-        border: 1px solid #072e2f;
-        padding: 10px;
-        color: #c6e6da;
-      }
 
-      .item footer {
-        background: #072e2f;
-        color: #226464;
-        font-size: 10px;
-        font-style: italic;
-        text-align: right;
-      }
+        .item paper-item span {
+            width: 32px;
+            height: 24px;
+            padding: 3px;
+            text-align: center;
+        }
 
-      .item footer a {
-        color: #226464;
-      }
+        .item div{
+            border: 1px solid #3e3e47;
+            padding: 10px;
+            color: #ffffff;
+        }
+
+        .item footer {
+            background: #000000;
+            color: #a19ba6;
+            font-size: 10px;
+            text-align: right;
+        }
+
+        .item footer a {
+            color: #a19ba6;
+            text-decoration: none;
+        }
+
+        .item footer a:hover {
+            color: #aae8fd;
+            text-decoration: none;
+        }
     </style>
 
     <!--<iron-ajax id="jsonFile" auto handle-as="json" last-response="{{data}}" on-response="handleResponse"></iron-ajax>-->
@@ -78,16 +101,16 @@
     <template is="dom-repeat" items="{{items}}">
       <article>
         <div class="item">
-          <paper-item center-justified onclick="toggle(this)" id="#item{{jsonfile}}{{item.index}}">
+          <paper-item center-justified onclick="toggle(this)" id="#item{{jsonfile}}{{index}}">
               <span>
                 <img src="images/icons/icon-{{item.sourcetype}}.png"
                      alt="{{item.sourcetype}}"
-                     width="32px"
-                     height="32px">
+                     width="24px"
+                     height="24px">
               </span>
             {{item.headline}}
           </paper-item>
-          <iron-collapse id="item{{jsonfile}}{{item.index}}" tabindex="{{item.index}}">
+          <iron-collapse id="item{{jsonfile}}{{index}}" tabindex="{{index}}">
             <div id="articlecontent" inner-h-t-m-l="{{item.content}}"></div>
             <footer><a href="{{item.source}}" target="_blank"># Source</a></footer>
           </iron-collapse>

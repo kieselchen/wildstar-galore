@@ -1,0 +1,63 @@
+<dom-module id="side-bar">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+
+            paper-menu {
+                margin-top: 20px;
+                margin-left: 20px;
+                position: absolute;
+                width: 155px;
+                padding: 9px 18px;
+                border: 1px solid #3e3e47;
+                border-radius: 5px;
+                background: #000;
+            }
+
+            a {
+                color: #a19ba6;
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: 2px;
+                line-height: 24px;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: block;
+            }
+
+            a:hover {
+                color: #aae8fd;
+            }
+
+            a:active {
+                color: #ffffff;
+            }
+        </style>
+        <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{data}}" auto></iron-ajax>
+        <paper-menu class="list" attr-for-selected="data-route" selected="[[route]]">
+            <a data-route="home" href=".{{baseUrl}}">Home</a>
+            <template is="dom-repeat" items="{{data}}">
+                <a data-route="{{item}}" href="./{{baseUrl}}{{item}}">{{item}}</a>
+            </template>
+        </paper-menu>
+
+    </template>
+
+    <script>
+        (function() {
+            'use strict';
+
+            Polymer({
+                is: 'side-bar',
+                properties: {
+                    items: {
+                        type: Array,
+                        notify: true,
+                    }
+                }
+            });
+        })();
+    </script>
+</dom-module>

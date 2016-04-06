@@ -6,7 +6,7 @@
       }
     </style>
     <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{data}}" auto></iron-ajax>
-    <template is="dom-repeat" items="{{data}}" class="category"><a data-route="{{item}}" href="./{{baseUrl}}{{item}}"><paper-icon-button class="button-panel hidden" src="images/btn/btn-{{item}}.png"></paper-icon-button></a></template>
+    <template is="dom-repeat" items="{{data}}"><a data-route="{{item}}" href="./{{baseUrl}}{{item}}"><paper-icon-button class="button-panel hidden" src="images/btn/btn-{{item}}.png"></paper-icon-button></a></template>
   </template>
 
   <script>

@@ -70,12 +70,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <span class="paper-font-title">W* (Ga-)Lore</span>
         </paper-toolbar>
 
-        <!-- Drawer Content -->
-        <iron-ajax url="data/categories.json" last-response="{{data}}" auto></iron-ajax>
-        <paper-menu class="list" attr-for-selected="data-route" selected="[[route]]">
-          <a data-route="home" href=".{{baseUrl}}"><iron-icon icon="chevron-right"></iron-icon><span> Home</span></a>
-          <template is="dom-repeat" items="{{data}}"><a data-route="{{item}}" href=".{{baseUrl}}{{item}}"><iron-icon icon="chevron-right"></iron-icon><span> {{item}}</span></a></template>
-        </paper-menu>
+        <side-bar></side-bar>
       </paper-scroll-header-panel>
 
       <!-- Main Area -->

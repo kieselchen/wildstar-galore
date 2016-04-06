@@ -1,6 +1,102 @@
 [
   {
-    "index": 0,
+    "headline": "Overview",
+    "content": "<p></p>",
+    "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+    "sourcetype": "loremageddon",
+    "expanded": true
+  },{
+  "headline": "Names",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Speech",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Personality Profile",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Motivation",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Lifespan",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Physical Appearance",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Physiology",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Homeworld",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "History",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Industry",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Religion",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Communities",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Relations",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Faction",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},{
+  "headline": "Glossary",
+  "content": "<p></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/aurin/",
+  "sourcetype": "loremageddon",
+  "expanded": true
+},
+  {
     "headline": "I thought Vegggies are Aurin's pets D:",
     "content": "No, they eat them. They're Aurin food.",
     "source": "https://twitter.com/Fyrsey/status/710194590540828672",
@@ -8,7 +104,6 @@
     "expanded": true
   },
   {
-    "index": 1,
     "headline": "Trees = Oxygen = Bugs. How big were Arboria's bugs?",
     "content": "<p>Probably as large as you want them to be until we actually establish more lore about Arboria's fauna.</p><p>You need to consider how much vegetation (or whatever) a bug like that [editor's note: size of a mighty steed. see full tweet] would need to survive.</p>",
     "source": "https://twitter.com/CaptainAsteroid/status/710190058402410497",
@@ -16,7 +111,6 @@
     "expanded": true
   },
   {
-    "index": 2,
     "headline": "Is Arwick A Romantic Consort to Queen Myala? Does she have multiple romantic consorts?",
     "content": "<p>Arwick and Myala hold deep feelings for one another. I know of no other romances between her and other consorts.</p>",
     "source": "https://twitter.com/danielwhitcomb/status/710190376171077632",
@@ -24,7 +118,6 @@
     "expanded": true
   },
   {
-    "index": 3,
     "headline": "Do Aurin have litters of babies? If so what's the correct term for them?",
     "content": "<p>Aurin don't have litters. They usually give birth to one child at a time. Twin births happen, but aren't as common.</p>",
     "source": "https://twitter.com/MesaanaSedai/status/712699755495751681",
@@ -32,7 +125,6 @@
     "expanded": true
   },
   {
-    "index": 4,
     "headline": " Aviel/Order of Weavers and Aurin Matriarchs/the Weave... is there a connection here?",
     "content": "<p>Nope. The Aurin concept of the Weave isn't related to the Eldan Order of the Weavers.</p><p>The Eldan Weavers specialized in the dynamics associated with combining and infusing primal energies.</p><p>The Aurin Weave is more of a philosophical belief system, wherein nature is a supernatural tapestry of sorts.</p>",
     "source": "https://twitter.com/eldanmonster/status/713061655391911937",
@@ -40,7 +132,6 @@
     "expanded": true
   },
   {
-    "index": 5,
     "headline": " Are all aurins that natureloving? Or there are rebels?",
     "content": "<p>There are always exceptions to the rules.</p>",
     "source": "https://twitter.com/Mrachnoglyad/status/715256269800673281",

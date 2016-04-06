@@ -9,83 +9,76 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <style is="custom-style">
-
-  /*
-   Polymer includes a shim for CSS Custom Properties that we can use for application theming.
-   Below, you'll find the default palette for the Polymer Starter Kit layout. Feel free to play
-   with changing the colors used or generate your own palette of colours at MaterialPalette.com.
-
-   See https://www.polymer-project.org/1.0/docs/devguide/styling.html#xscope-styling-details
-   for further information on custom CSS properties.
-   */
-
   /* Application theme */
 
   :root {
-    --primary-color-darker: #031719;
-    --primary-color-dark: #072e2f;
-    --primary-color-medium: #226464;
-    --primary-color-light: #a2ffcd;
-    --primary-color-lighter: #c6e6da;
+    /*--primary-color-darker: #031719;*/
+    /*--primary-color-dark: #072e2f;*/
+    /*--primary-color-medium: #226464;*/
+    /*--primary-color-light: #a2ffcd;*/
+    /*--primary-color-lighter: #c6e6da;*/
 
-    --link-color: #0079d3;
+    --primary-color-darker: #000000;
+    --color-dark: #050b19;
+    --primary-color-medium: #C0BDD7;
+    --primary-color-light: #ff0000;
+    --color-lighter: #ffffff;
+
+    --highlight-color: #ffe5b2;
+    --link-color: #a19ba6;
+    --hover-color: #aae8fd;
     --confirm-color: #a5d6a7;
     --info-color: #90caf9;
     --warning-color: #b69f50;
     --error-color: #d14f45;
+
+  --paper-menu-focused-item: {
+     background: #000000;
+    color: #ffffff;
+   }
+
+  --paper-menu-selected-item : {
+     background: #000000;
+     color: #ffffff;
+   }
 }
 
+
+
 /* General styles */
-  body {
-    color: var(--primary-color-light);
+  body, paper-scroll-header-panel {
+    background: var(--color-dark);
+    color: var(--color-lighter);
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   a {
     color: var(--link-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
   }
 
   header {
-    background: var(--primary-color-medium);
+    background: var(--error-color);
   }
 
   footer {
-    background: var(--primary-color-medium);
+    background: var(--error-color);
   }
 
   paper-scroll-header-panel {
-    background: var(--primary-color-darker);
-  }
-
-  paper-menu {
-    background: var(--primary-color-darker);
-  }
-
-  paper-menu a {
-    @apply(--layout-horizontal);
-    @apply(--layout-center);
-    text-decoration: none;
-    color: var(--primary-color-light);
-    font-family: 'Roboto', 'Noto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    min-height: 48px;
-    padding: 0 16px;
-  }
-
-  .paper-menu > .iron-selected {
-    background: var(--primary-color-dark);
-  }
-
-  #drawer.paper-drawer-panel > [drawer] {
-    border-right: 1px solid var(--primary-color-light);
+    border-right: 1px solid #3e3e47;
   }
 
   paper-toolbar {
     background-image: url("../images/header.jpg");
-  background-color: var(--primary-color-medium);
+    background-color: var(--error-color);
   }
 
   paper-scroll-header-panel {
@@ -93,7 +86,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   }
 
   paper-material {
-    background: var(--primary-color-dark);
+    background: var(--error-color);
     border-radius: 2px;
     height: 100%;
     padding: 16px 0 16px 0;
@@ -108,6 +101,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     /* Required for main area's paper-scroll-header-panel custom condensing transformation */
     -webkit-transform-origin: left center;
     transform-origin: left center;
+  }
+
+  .item h2{
+    color: #8bd4ff;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .item i {
+    color: #ffe5b2;
+    font-size: 10px;
+    font-style: normal;
+  }
+
+  .item b {
+    color: #ffe5b2;
   }
 
   #mainToolbar .middle-container  {
@@ -157,15 +167,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       padding-right: 30px;
     }
   }
-
-  /* Material Design Adaptive Breakpoints */
-  /*
-    Below you'll find CSS media queries based on the breakpoint guidance
-    published by the Material Design team. You can choose to use, customise
-    or remove these breakpoints based on your needs.
-
-    http://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoints
-   */
 
   /* mobile-small */
   @media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) { }
