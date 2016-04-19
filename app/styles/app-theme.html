@@ -12,12 +12,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   /* Application theme */
 
   :root {
-    /*--primary-color-darker: #031719;*/
-    /*--primary-color-dark: #072e2f;*/
-    /*--primary-color-medium: #226464;*/
-    /*--primary-color-light: #a2ffcd;*/
-    /*--primary-color-lighter: #c6e6da;*/
-
     --primary-color-darker: #000000;
     --color-dark: #050b19;
     --primary-color-medium: #C0BDD7;
@@ -68,7 +62,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     border-right: 1px solid #3e3e47;
   }
 
-  paper-toolbar {
+  paper-toolbar, footer {
     background-image: url("../images/header.jpg");
     background-color: var(--color-dark);
   }
@@ -88,18 +82,34 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   }
 
   paper-toolbar.tall .app-name {
-    font-size: 40px;
-    font-weight: 300;
+      background: url("../images/banner-large.png") no-repeat;
+      height: 120px;
+      width: 640px;
     /* Required for main area's paper-scroll-header-panel custom condensing transformation */
     -webkit-transform-origin: left center;
     transform-origin: left center;
   }
 
+  paper-toolbar#drawerToolbar{
+      background: url("../images/banner-small.png") no-repeat;
+  }
+
+  footer {
+      padding: 10px;
+      font-size: 12px;
+      color: #a19ba6;
+      width: 100%;
+  }
+
   .item h2{
     color: #8bd4ff;
     font-weight: 300;
-    margin-top: 40px;
     font-size: 14px;
+      margin-top: 25px;
+  }
+
+  .item h2:first-child{
+      margin-top: 0;
   }
 
   .item i {
@@ -114,7 +124,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   #mainToolbar .middle-container  {
     height: 100%;
-    margin-left: 48px;
   }
 
   #mainToolbar:not(.tall) .middle {
@@ -129,6 +138,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     transform-origin: left center;
   }
 
+  #mainToolbar .bottom-title {
+      height: 0;
+  }
+
   /* Breakpoints */
 
   /* Small */
@@ -141,9 +154,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
 
     paper-toolbar.tall .app-name {
-      font-size: 24px;
-      font-weight: 400;
+        background: url("../images/banner-small.png") no-repeat;
+        height: 64px;
+        width: 240px;
     }
+
+      #mainToolbar .middle-container  {
+          margin-left: 40px;
+      }
 
     #drawer .paper-toolbar {
       margin-left: 16px;

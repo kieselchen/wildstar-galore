@@ -1,21 +1,4 @@
 [
-  ["exiles"],
-  ["dominions"],
-  ["eldan"],
-  ["nexus"],
-  ["humans"],
-  ["aurin"],
-  ["granok"],
-  ["mordesh"],
-  ["cassians"],
-  ["chua"],
-  ["draken"],
-  ["mechari"],
-  ["lopps"],
-  ["ikthians"],
-  ["osun"],
-  ["organizations"],
-  ["universe"],
-  ["wildlife"],
-  ["classes"]
+  { "id": 1,    "label": "dominions"},
+  { "id": 2,    "label": "exiles"}
 ]

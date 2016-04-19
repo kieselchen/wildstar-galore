@@ -1,105 +1,146 @@
 [{
+  "scope": 1,
   "headline": "Overview",
-  "content": "<p></p>",
+  "content": "<p>Humans of the Dominion - known as Cassians - are fervent believers in their glorious destiny. Chosen by the Eldan to be the inheritors of their ancient legacy, Cassians built the Dominion, formed the Vigilant Church, and drove the heretics who denied Eldan divinity into exile. Cassians' devotion to their empire makes them natural leaders, monumental builders, and stalwart soldiers. Intelligent, industrious, and intensely committed, Cassians serve as the social, industrial and moral compass for the Dominion - and will fiercely fight to fulfill their destiny as the rightful rulers of planet Nexus.</p><i>LORE NOTE: Today, only Dominion humans are generally called \"Cassians.\" Those who left Cassus hundreds of years ago and now side with the Exiles are known as \"Exile humans.\"</i>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 2,
   "headline": "Names",
-  "content": "<p></p>",
+  "content": "<p>Cassians have first names inspired by the Eldan and the Luminai, with surnames that date back to old Cassian nobility. They are distinctly different from Exile names.</p><h2>Examples:</h2><ul><li>Emperor Myrcalus</li><li>Toric Antevian</li><li>Rentic Novium</li></ul>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 3,
   "headline": "Speech",
-  "content": "<p></p>",
+  "content": "<p>Cassian speech patterns stratify drastically between highborn and lowborn. The highborn tend to speak with a touch of formality and a continental flair, favoring long forms to contractions. They respect the social hierarchy and have a tendency to condescend to those they perceive as beneath their station.</p><p>Lowborn Cassian speech, on the other hand, has more in common with a working class British or cockney accent. They're usually direct and to the point, and any embellishments typically take the form of a quick curse or colloquialism.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 4,
   "headline": "Personality Profile",
-  "content": "<p></p>",
+  "content": "<p>In keeping with Vigilant Church doctrine, the humans of Cassus believe the glory of the empire and the emperor's divine right to the legacy of the Eldan. While they are not fanatics, thousands of years of galactic expansion have forged them into a proud people, convinced of their own destiny to rule.</p><p>Rather than conquerors, Cassians often view themselves as liberators, bringing social and religious enlightenment to less fortunate worlds—regardless of whether or not planets were interested in their \"help.\"</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 5,
   "headline": "Motivation",
-  "content": "<p></p>",
+  "content": "Cassians believe in themselves, their empire, and their destiny on Nexus as the true inheritors of the Eldan legacy. The planet's discovery and their subsequent journey there is a validation of those beliefs.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 6,
   "headline": "Lifespan",
-  "content": "<p></p>",
+  "content": "A typical Cassian life lasts around 100 years, with highborn citizens typically outliving their lowborn kin thanks to higher concentrations of Eldan genetic material. In rare cases, however, some highborn nobles who are very close descendants of the Luminai have been known to live for centuries.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 7,
   "headline": "Physical Appearance",
-  "content": "<p></p>",
+  "content": "Dominion humans display typical human diversity. Aside from distinctive clothing and armor styles, they are generally indistinguishable from their Exile kin. Almost all Cassian humans on Nexus are highborn, meaning they have a small amount of Eldan blood in their family dating from the time of the Ancestral Decree. They often lean toward tall.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 8,
   "headline": "Physiology",
-  "content": "<p></p>",
+  "content": "<p>Despite their Eldan ancestry, a Cassian's physiology is prototypically human. While they're less physically remarkable than some other sentient species (such as a Draken or Granok), humans have proven themselves to be cunning Warriors and ingenious scientists with remarkable statesmanship skills. It is these very qualities that first brought them to the attention of the Eldan, whose intervention helped make them the dominant force in the galaxy.</p><p>Although their physique more or less mirrors that of their Exile cousins, Eldan influence is far more pervasive among Cassian natives. An individual with higher concentrations of Eldan blood may be taller, have a slighter build, more defined bone structure, and lighter body hair than one whose genetic profile is purely human. But while these highborn are often gifted with longer lifespans, they occasionally fall victim to mysterious and poorly understood genetic anomalies.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 9,
   "headline": "Homeworld",
-  "content": "<p></p>",
+  "content": "Humans of both the Dominion and the Exiles hail originally from the planet Cassus. This green, temperate world until recently was the official seat of the Dominion, but the Luminai Emperor Myrcalus recently moved the Dominion capital to Nexus. Still, Cassus is home to more humans than any other world.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 10,
   "headline": "History",
-  "content": "<p></p>",
+  "content": "<p>Around two thousand years ago, the humans of the Cassian Commonwealth underwent a technological renaissance so remarkable it caught the eye of the Mechari, who told their Eldan masters of these ambitious and brilliant creatures. In humans, they saw a race that might one day rival the Eldan themselves. The Eldan immediately decided to make contact with this young civilization, both to cement an alliance with its human population and guide its future development. To accomplish this, they selected a female they believed to exemplify the finest traits of Cassian civilization, and began an experiment to merge human genetics with their own. Known to history as Tresayne Toria, this woman became the mother of the first Eldan-human hybrid and emperor of the Dominion: Dominus, the Half-Blood.</p><p>At first, the humans of Cassus welcomed the arrival of Dominus and his Mechari entourage, entering into an unprecedented age of prosperity under his leadership, and that of his Luminai descendants. Through the Luminai and the Mechari, the Eldan guided political and military policies, forging the Dominion into a conquering empire that flourished for more than 700 years. It was then that the Eldan mysteriously vanished—leaving behind a final, cryptic message claiming they would soon seize the power of the gods.</p><p>Secure in the knowledge that the Eldan has ascended to godhood, Emperor Jarec issued the Vigilant Declaration, founding the Vigilant Church. This proved to be both his greatest triumph and gravest error, for the deification of the Eldan divided human society and ignited the Cassian Civil War. Ultimately, these dissident humans were forced into permanent exile, wandering the stars for centuries until the discovery of Nexus beyond the Fringe. Now this fabled planet promises the Cassians a true Eldan world to form the heart of their Dominion.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 11,
   "headline": "Industry",
-  "content": "<p></p>",
+  "content": "Cassians have always been accomplished builders, and the Dominion architecture of their cities reflects their belief in the glory of the empire. They're heavily involved in many aspects of industrial production—including engineering, construction, and agriculture. Their inherent intelligence and insight make them quick learners and they specialize in many different fields.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 12,
   "headline": "Religion",
-  "content": "<p></p>",
+  "content": "Cassians are the most devoted disciples of the Vigilant Church, and can be found in many different clerical and priestly vocations. They often serve as Inquisitors, church agents who tirelessly root out heretical ideas that undermine the authority of the emperor.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 15,
   "headline": "Communities",
-  "content": "<p></p>",
+  "content": "Cassian communities are planned, orderly, and classically elegant. Large territories are generally ruled by a provincial governor—a title granted by one of the Great Houses of the Luminai. Smaller communities are ruled by prefects who report to the governor. Vigilant missions are common throughout the empire, and are generally ruled by a high priest of the church. In all Cassian communities, Imperial traditions are upheld and respect is always paid to the reigning emperor.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 16,
   "headline": "Relations",
-  "content": "<p></p>",
+  "content": "<h2>Luminai</h2>All Cassians are loyal to a Cassian High Family. The High Families are in turn loyal to one of the Seven Great Houses of the Luminai.<h2>Mechari</h2>As Eldan creations, Cassians revere the Mechari and generally follow their advice without question.<h2>Chua</h2>Cassians feel that Chua provide an indispensable service to the Dominion, and usually overlook their mischievousness because of it.<h2>Draken</h2>Cassians respect the skill and ferocity of the Draken, seeing them as the ultimate manifestation of Dominion strength.<h2>Exile Humans</h2>Cassians harbor an intense hatred of their Exile brethren, consider them unforgivable traitors and heretics.<h2>Aurin</h2>Cassians consider Aurin little more than feral forest creatures whose presence is a desecration of their rightful kingdom.<h2>Granok</h2>Cassian humans will never forget the Granok and the embarrassing defeat the Dominion suffered against them. They look forward to settling the score.<h2>Mordesh</h2>The Cassians see the Mordesh as foul, diseased abominations worthy only of extermination. They will usually attack them on sight, in order to destroy them before they spread the Contagion.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 17,
   "headline": "Faction",
-  "content": "<p></p>",
+  "content": "The Cassians are the heart and soul of the Dominion. Their fervent, unwavering belief often serves as a compass for the empire during turbulent times—and can serve to focus the more extreme proclivities of their Dominion counterparts. Most Cassian citizens serve at least a few years in the Dominion military, unless they have already dedicated their lives to the Vigilant Church.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 18,
   "headline": "Glossary",
-  "content": "<p></p>",
+  "content": "<p>Terms used primarily by Cassians include:</p><h2>Citizen</h2>A member of the Dominion. May be lowborn or highborn.<h2>Ghoul</h2>A Mordesh.<h2>Gnoxian</h2>A Granok.<h2>Heretics</h2>Exiles.<h2>Luminai</h2>The human-Eldan hybrids whose Great Houses help the emperor run the Dominion. When addressing a Luminai, the speaker usually uses \"Luminai\" as one might use \"my lord\" when addressing a Cassian noble.<h2>My Lady/My Lord</h2>Term of address for highborn human nobles to all but the Luminai. Also m'lord and m'lady.<h2>Scions</h2><p>The six children of Dominus, who founded and gave their names to the seven great houses of the Luminai and now serve as the patron saints of the Vigilant Church. They often appear in oaths and exclamations, either individually or as a group.</p><i>HISTORICAL NOTE: Dominus did have a seventh child, his son Chaul. House Chaul – now known as \"the Ghost House\" - was dissolved by Emperor Myrcalus as a result of its involvement in the assassination of Jarec the Vigilant.</i><h2>Traitors</h2>Exiles.",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/cassian/",
-  "sourcetype": "loremageddon",
-  "expanded": true
-},
-  {
-    "headline": "Highborn Cassians shunned for being lesbian and not contributing to their lineage?",
+  "sourcetype": "loremageddon"
+},{
+  "scope": 4,
+    "headline": "Are lesbian Highborn shunned for not contributing to their lineage?",
     "content": "Though I can see that happening, Cassian highborn are fairly pragmatic, re: heirs. They can probably do it in a test tube.",
     "source": "https://twitter.com/DavenportRina/status/712704785699512324",
-    "sourcetype": "twitter",
-    "expanded": true
-  }
+    "sourcetype": "twitter"
+  },{
+    "scope": 12,
+    "headline": "The religious climate prior to the establishment of the Vigilant Church",
+    "content": "<p>Prior to the Vigilant Declaration, the Dominion didn't have an official religion it expected all subjects embrace. Human religious life, particularly in provincial areas, centered on chronicle houses, where citizens would gather to hear chroniclers recite the stories of their ancestors. Chronicle houses were often seen as the central community hub of a Cassian settlement, and chroniclers often became pillars of the community, settling disputes, offering advice or guidance, and officiating communal ceremonies. When Emperor Jarec signed the Vigilant Declaration, the new church was quick to take advantage of existing chronicle houses to facilitate rapid expansion, often refitting or replacing these historical buildings as holy places to dedicated to the Eldan.</p><p>Although humans looked upon those of Eldan blood with a sense of reverence and wonderment from the time Dominus first set foot on Cassus, many lowborn communities were not so eager to abandon their traditional beliefs. And while the Vigilant Virtues (each associated with one of the famed children of Dominus) were already a strong influence on Cassian culture before they were canonized, many townships still held to the example set by their own heroes of legend. So although there were strong cultural precedents for Emperor Jarec to establish an official religion founded on these values, many citizens still felt displaced in the wake of its rapid, widespread adoption.</p>",
+    "source": "http://www.wildstar-online.com/en/game/loremageddon/#history",
+    "sourcetype": "loremageddon"
+  },{
+  "scope": 10,
+  "headline": "About the social and political forces that led up to Brightland's Rebellion",
+  "content": "<p>Emperor Jarec first took the throne following the death of one of the Dominion's most infamous rulers, Tyrani the Mad, whose stunning defeat by the Granok of Gnox left him a broken, unfit leader. Although his predecessor left him an empire in crisis, Jarec initially proved equal to the task of repairing a Dominion shattered by his father's insanity. A sensible leader with strong, practical values, Jarec saw the Vigilant Declaration as an opportunity to turn the Eldan's sudden disappearance into a unifying force for his subjects.</p><p>Although most Cassians enthusiastically embraced Jarec's new faith, a strong minority of the population, particularly those of lowborn status, were not so eager to abandon their traditional beliefs. Already somewhat disenfranchised by the existing bias toward those with Eldan heritage, these citizens saw the deification of the Eldan as a classist maneuver that further entrenched the discriminatory elements of Cassian culture. Fueled by a latent distrust for the ruling aristocracy, these dissidents joined Serrick Brightland's rebellion, and took the stars in permanent exile from the Dominion.</p><p>As a populist who felt his station was a sacred charge to serve the Cassian people, the schism caused by the Vigilant Declaration would haunt Jarec for the rest of his reign.</p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/#history",
+  "sourcetype": "loremageddon"
+},{
+  "scope": 17,
+  "headline": "Did Dominus name Korol after the Eldan Koral?",
+  "content": "I don't believe so, given the spelling difference. Koral = Eldan, Korol = Scion.",
+  "source": "https://twitter.com/CarbineGary/status/710207736773021697",
+  "sourcetype": "twitter"
+},{
+  "scope": 14,
+  "headline": "Luminai and illegitimate children",
+  "content": "<p>Considering it was an executive order of sorts, I can assume that the punishments (for both sire and children) were severe.</p>",
+  "source": "https://twitter.com/CarbineGary/status/710211001199624192",
+  "sourcetype": "twitter"
+},{
+  "scope": 13,
+  "headline": "Mercenary Groups",
+  "content": "<h2>Would the Dominion be opposed to having a mercenary group running around doing jobs they saw beneath them?</h2>They probably wouldn't favor it, but I wouldn't entirely rule it out in the case of covert operations.",
+  "source": "https://twitter.com/CarbineGary/status/710223954749722625",
+  "sourcetype": "twitter"
+},{
+  "scope": 12,
+  "headline": "Does the Inquisition have any type of official regalia?",
+  "content": "<p>Inquisitors rarely dress differently from other members of the church. It's easier to put heretics off their guard that way.</p><p>I'm sure they have their own insignia - a sort of secret sign of their authority - but we have yet to discuss it in full.</p>",
+  "source": "https://twitter.com/CarbineGary/status/715329841663320064",
+  "sourcetype": "twitter"
+},{
+  "scope": 13,
+  "headline": "The Dominion Legions",
+  "content": "<p>The Dominion military is a vast organization that spans the entirety of the empire. Its organizational structure is based on the legion, a fighting unit which consists of a variable number of troops. On average a legion consists of 50,000 troops, including officers, legionnaires, auxiliary troops, armored cavalry, and airmobile units. Legions can be expanded to include as many as 100,000 troops, but the ranks are rarely inflated to such a degree unless great need demands it.</p><p>The number of legions in the Dominion's vast military has never been disclosed, but estimates place the total somewhere in the vicinity of 500, including those legions that are currently inactive. Inactive legions are kept in reserve until such time as they are mobilized, which can be done at a moment's notice. Legions are generally deactivated as a cost-saving measure or, rarely, when their numbers have been reduced below effective levels (10-15%).</p><p>Four full-strength legions accompanied the Dominion mission to Nexus, and each one bears a name based on the empire's national colors – Black, Crimson, Gold, and White. These legions were formed specifically with the colonization of Nexus in mind, and the troops that fill their ranks were selected from the very best the Dominion military had to offer. It should be noted that the Radiant Legion, which is solely under the purview of the Vigilant Church, is entirely separate from the Nexus legions.</p><p>Other legions receive their names upon formation and retain them until such time as they are dissolved. Only two legions in Dominion history – the Bone Legion* and the Tartarus Legion** – have ever been dissolved. In addition, a handful of existing legions can trace their unit histories back over 1,600 years to the Dominion's formation. Such legions bear the distinction of being referred to as \"Heritage Legions\" and their troops take great pride in carrying on their units' long tradition of bravery and service in arms.</p><p><i>* The Bone Legion was an all-Draken legion that fought to the last against the Granok on Gnox in 1221 AE. The names of the 30,000 troops that comprised the Bone Legion are worked into a monument on Cassus, and many Draken make a pilgrimage to the site to pay their respects to their ancestors.</i></p></p><p><i>**The Tartarus Legion was part of an expedition to locate and pacify potentially habitable systems beyond the Fringe. Though the expedition experienced some initial success, all contact was lost with them in 1492 AE. It is expected that the Tartarus Legion was lost along with the rest of the expedition. Regardless of the uncertainty surrounding their fate, the legionnaires are remembered as pioneers and heroes.</i></p>",
+  "source": "http://www.wildstar-online.com/en/game/loremageddon/#factions",
+  "sourcetype": "loremageddon"
+}
 ]

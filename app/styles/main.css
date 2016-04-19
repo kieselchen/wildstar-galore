@@ -32,16 +32,48 @@ paper-icon-button.button-panel:hover {
     width: 100%;
     height: auto;
   }
+
+  .content article {
+    width: 100%;
+  }
+
+  /*.content article:nth-child(1n) {*/
+    /*clear: both;*/
+  /*}*/
 }
 @media (min-width: 801px) and (max-width: 1100px) {
   paper-icon-button.button-panel {
     width: 49%;
     height: auto;
   }
+
+  .content article {
+    width: 47.5%;
+  }
+
+  .content article:nth-child(2n) {
+    clear: both;
+  }
+
+    .content article:nth-of-type(1) {
+        width: 100%;
+    }
 }
 @media (min-width: 1101px) {
   paper-icon-button.button-panel {
     width: 24.5%;
     height: auto;
+  }
+
+  .content article {
+    width: 23.5%;
+  }
+
+  .content article:nth-child(4n) {
+    clear: both;
+  }
+
+  .content article:nth-of-type(1) {
+    width: 100%;
   }
 }

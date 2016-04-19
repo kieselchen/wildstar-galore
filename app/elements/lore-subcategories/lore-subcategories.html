@@ -1,0 +1,53 @@
+<dom-module id="lore-subcategories">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+        </style>
+
+        <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{categories}}" auto></iron-ajax>
+        <iron-ajax url=".{{baseUrl}}/data/subcategories.json" last-response="{{subcategories}}" auto></iron-ajax>
+
+        <a data-route="home" href=".{{baseUrl}}"><paper-icon-button class="button-panel hidden"
+                                                                    src="./{{baseUrl}}images/btn/btn-home.png"></paper-icon-button></a>
+        <template is="dom-repeat" items="{{categories}}" as="category">
+            <!--<template is="dom-if" if="[[isCategory(item.label)]]">-->
+            <!--<template is="dom-repeat" items="{{item.categories}}">-->
+            <!--<a data-route="{{item}}" href="./{{baseUrl}}{{item}}"><paper-icon-button class="button-panel hidden" src="images/btn/btn-{{item}}.png"></paper-icon-button></a>-->
+            <!--</template>-->
+            <!--</template>-->
+            <template is="dom-repeat" items="{{subcategories}}" as="subcategory">
+                <template is="dom-if" if="[[isSameCategory(category.label, category.id, subcategory.cid)]]">
+                    <a data-route="{{subcategory.label}}" href="./{{baseUrl}}{{subcategory.label}}">
+                        <paper-icon-button class="button-panel hidden"
+                                           src="images/btn/btn-{{subcategory.label}}.png"></paper-icon-button>
+                    </a>
+                </template>
+            </template>
+        </template>
+    </template>
+
+    <script>
+        (function () {
+            'use strict';
+            Polymer({
+                is: 'lore-subcategories',
+                properties: {
+                    category: String,
+                    items: {
+                        type: Array,
+                        reflectToAttribute: true,
+                        notify: true
+                    }
+                },
+                isCategory: function (code) {
+                    return code === this.category;
+                },
+                isSameCategory: function (category, id, cid) {
+                    return category === this.category && id === cid;
+                }
+            });
+        })();
+    </script>
+</dom-module>

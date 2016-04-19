@@ -1,0 +1,10 @@
+[
+  { "id": 1,  "cid": 1, "label": "cassians"},
+  { "id": 2,  "cid": 1, "label": "chua"},
+  { "id": 3,  "cid": 1, "label": "draken"},
+  { "id": 4,  "cid": 1, "label": "mechari"},
+  { "id": 5,  "cid": 2, "label": "humans"},
+  { "id": 6,  "cid": 2, "label": "aurin"},
+  { "id": 7,  "cid": 2, "label": "granok"},
+  { "id": 8,  "cid": 2, "label": "mordesh"}
+]

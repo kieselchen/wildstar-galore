@@ -34,15 +34,42 @@
             a:active {
                 color: #ffffff;
             }
+
+            a.subcategory {
+                padding: 5px 0 5px 5px;
+                border-bottom: 1px dotted #a19ba6;
+                border-left: 1px dotted #a19ba6;
+            }
+
+            paper-item {
+                min-height: 30px;
+                margin-top: 10px;
+                padding: 0;
+            }
+
+            paper-item:first-child {
+                margin-top: 0;
+            }
         </style>
-        <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{data}}" auto></iron-ajax>
+
+        <iron-ajax url=".{{baseUrl}}/data/categories.json" last-response="{{categories}}" auto></iron-ajax>
+        <iron-ajax url=".{{baseUrl}}/data/subcategories.json" last-response="{{subcategories}}" auto></iron-ajax>
+
         <paper-menu class="list" attr-for-selected="data-route" selected="[[route]]">
             <a data-route="home" href=".{{baseUrl}}">Home</a>
-            <template is="dom-repeat" items="{{data}}">
-                <a data-route="{{item}}" href="./{{baseUrl}}{{item}}">{{item}}</a>
+            <template is="dom-repeat" items="{{categories}}" as="category">
+                <paper-item center-justified onclick="toggle(this)" id="#navi{{category.label}}">
+                    <a data-route="{{category.label}}" href="./{{baseUrl}}{{category.label}}">{{category.label}}</a>
+                </paper-item>
+                <iron-collapse id="navi{{category.label}}" tabindex="{{index}}">
+                    <template is="dom-repeat" items="{{subcategories}}" as="subcategory">
+                        <template is="dom-if" if="[[isSameCategory(category.id, subcategory.cid)]]">
+                            <a class="subcategory" data-route="{{subcategory.label}}" href="./{{baseUrl}}{{subcategory.label}}">► {{subcategory.label}}</a>
+                        </template>
+                    </template>
+                </iron-collapse>
             </template>
         </paper-menu>
-
     </template>
 
     <script>
@@ -56,8 +83,15 @@
                         type: Array,
                         notify: true,
                     }
+                },
+                isSameCategory: function (id, cid) {
+                    return id === cid;
                 }
             });
         })();
+
+        function toggle(e) {
+            document.querySelector(e.id).toggle();
+        }
     </script>
 </dom-module>
