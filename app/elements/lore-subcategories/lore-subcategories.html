@@ -18,10 +18,10 @@
             <!--</template>-->
             <!--</template>-->
             <template is="dom-repeat" items="{{subcategories}}" as="subcategory">
-                <template is="dom-if" if="[[isSameCategory(category.label, category.id, subcategory.cid)]]">
-                    <a data-route="{{subcategory.label}}" href="./{{baseUrl}}{{subcategory.label}}">
+                <template is="dom-if" if="[[isSameCategory(category.identifier, category.id, subcategory.cid)]]">
+                    <a data-route="{{subcategory.identifier}}" href="./{{baseUrl}}{{subcategory.identifier}}">
                         <paper-icon-button class="button-panel hidden"
-                                           src="images/btn/btn-{{subcategory.label}}.png"></paper-icon-button>
+                                           src="images/btn/btn-{{subcategory.identifier}}.png"></paper-icon-button>
                     </a>
                 </template>
             </template>

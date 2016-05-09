@@ -1,112 +1,112 @@
 [{
+  "scope": 1,
   "headline": "Overview",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 2,
   "headline": "Names",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 3,
   "headline": "Speech",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 4,
   "headline": "Personality Profile",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 5,
   "headline": "Motivation",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 6,
   "headline": "Lifespan",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 7,
   "headline": "Physical Appearance",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 8,
   "headline": "Physiology",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 9,
   "headline": "Homeworld",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 10,
   "headline": "History",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 11,
   "headline": "Industry",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 12,
   "headline": "Religion",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 16,
   "headline": "Communities",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 17,
   "headline": "Relations",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 18,
   "headline": "Faction",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 19,
   "headline": "Glossary",
   "content": "<p></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/draken/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },
   {
-    "headline": "Can female Draken be lesbians? If so, would they be shunned for it?",
+    "scope": 16,
+    "headline": "Would female Draken be shunned for being lesbian?",
     "content": "Draken females kick ass, and the males know it. Who cares what they do in the bedroom?",
-    "source": "https://twitter.com/DavenportRina/status/712700229955362816",
-    "sourcetype": "twitter",
-    "expanded": true
+    "source": "https://twitter.com/CarbineGary/status/712704346002104322",
+    "sourcetype": "twitter"
   },
   {
-    "headline": "Can some lighter Draken stick to walls and ceilings like rad geckos? Because that would be terrifying in the best way.",
+    "scope": 8,
+    "headline": "Can lighter Draken stick to surfaces like rad geckos?",
     "content": "With enough glue, anyone can stick to a wall or ceiling. Though they have reptilian features, they don't have gecko feet.",
-    "source": "https://twitter.com/CaptainAsteroid/status/712701591040561152",
-    "sourcetype": "twitter",
-    "expanded": true
+    "source": "https://twitter.com/CarbineGary/status/712706036315004929",
+    "sourcetype": "twitter"
   }
 ]

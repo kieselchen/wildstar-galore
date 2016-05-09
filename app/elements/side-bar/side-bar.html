@@ -58,13 +58,13 @@
         <paper-menu class="list" attr-for-selected="data-route" selected="[[route]]">
             <a data-route="home" href=".{{baseUrl}}">Home</a>
             <template is="dom-repeat" items="{{categories}}" as="category">
-                <paper-item center-justified onclick="toggle(this)" id="#navi{{category.label}}">
-                    <a data-route="{{category.label}}" href="./{{baseUrl}}{{category.label}}">{{category.label}}</a>
+                <paper-item center-justified onclick="toggle(this)" id="#navi{{category.identifier}}">
+                    <a data-route="{{category.identifier}}" href="./{{baseUrl}}{{category.identifier}}">{{category.label}}</a>
                 </paper-item>
-                <iron-collapse id="navi{{category.label}}" tabindex="{{index}}">
+                <iron-collapse id="navi{{category.identifier}}" tabindex="{{index}}">
                     <template is="dom-repeat" items="{{subcategories}}" as="subcategory">
                         <template is="dom-if" if="[[isSameCategory(category.id, subcategory.cid)]]">
-                            <a class="subcategory" data-route="{{subcategory.label}}" href="./{{baseUrl}}{{subcategory.label}}">► {{subcategory.label}}</a>
+                            <a class="subcategory" data-route="{{subcategory.identifier}}" href="./{{baseUrl}}{{subcategory.identifier}}">► {{subcategory.label}}</a>
                         </template>
                     </template>
                 </iron-collapse>

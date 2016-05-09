@@ -50,18 +50,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       app.route = 'exiles';
     });
 
-    page('/dominions', function() {
-      app.route = 'dominions';
-    });
-
-    page('/eldan', function() {
-      app.route = 'eldan';
-    });
-
-    page('/nexus', function() {
-      app.route = 'nexus';
-    });
-
     page('/humans', function() {
       app.route = 'humans';
     });
@@ -78,51 +66,80 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       app.route = 'mordesh';
     });
 
-    page('/cassians', function() {
-      app.route = 'cassians';
+    page('/dominions', function() {
+      app.route = 'dominions';
     });
 
-    page('/chua', function() {
-      app.route = 'chua';
-    });
+      page('/cassians', function() {
+          app.route = 'cassians';
+      });
 
-    page('/draken', function() {
-      app.route = 'draken';
-    });
+      page('/chua', function() {
+          app.route = 'chua';
+      });
 
-    page('/mechari', function() {
-      app.route = 'mechari';
-    });
+      page('/draken', function() {
+          app.route = 'draken';
+      });
 
-    page('/classes', function() {
-      app.route = 'classes';
-    });
+      page('/mechari', function() {
+          app.route = 'mechari';
+      });
 
-    page('/wildlife', function() {
-      app.route = 'wildlife';
-    });
+      page('/datacubes', function() {
+          app.route = 'datacubes';
+      });
+      page('/aviel', function() {
+          app.route = 'aviel';
+      });
+      page('/bathior', function() {
+          app.route = 'bathior';
+      });
+      page('/drusera', function() {
+          app.route = 'drusera';
+      });
+      page('/elyona', function() {
+          app.route = 'elyona';
+      });
+      page('/ionis', function() {
+          app.route = 'ionis';
+      });
+      page('/jariel', function() {
+          app.route = 'jariel';
+      });
+      page('/koral', function() {
+          app.route = 'koral';
+      });
+      page('/nazrek', function() {
+          app.route = 'nazrek';
+      });
+      page('/nuriam', function() {
+          app.route = 'nuriam';
+      });
+      page('/ohmna', function() {
+          app.route = 'ohmna';
+      });
+      page('/tresayne', function() {
+          app.route = 'tresayne';
+      });
+      page('/nexusproject', function() {
+          app.route = 'nexusproject';
+      });
+      page('/vorion', function() {
+          app.route = 'vorion';
+      });
+      page('/xarophet', function() {
+          app.route = 'xarophet';
+      });
+      page('/yuria', function() {
+          app.route = 'yuria';
+      });
+      page('/zarkonis', function() {
+          app.route = 'zarkonis';
+      });
 
-    page('/lopps', function() {
-      app.route = 'lopps';
-    });
 
-    page('/organizations', function() {
-      app.route = 'organizations';
-    });
-
-    page('/universe', function() {
-      app.route = 'universe';
-    });
-
-    page('/ikthians', function() {
-      app.route = 'ikthians';
-    });
-
-    page('/osun', function() {
-      app.route = 'osun';
-    });
-
-    // 404
+      // 404
     page('*', function() {
       app.$.toast.text = 'Can\'t find: ' + window.location.href  + '. Redirected you to Home Page';
       app.$.toast.show();

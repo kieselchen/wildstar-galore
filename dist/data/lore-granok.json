@@ -1,98 +1,99 @@
-[{
-  "headline": "Overview",
-  "content": "<p>The Granok are a boisterous race of battle-tested, hard-drinking mercenaries that lead the Exile Free Companies. Banished from their home planet after a bloody war with the Dominion, the Granok spent the last few centuries lending their considerable combat skills to anyone in the galaxy willing to pay their price. Since finding common cause with the Exiles, these soldiers-of-fortune have made the long journey to Nexus and have sworn to defeat the invading armies of the Dominion no matter what the cost. Rowdy, reckless, and unyielding, the Granok are always leading the charge into battle—they are absolutely vital for the Exiles' continued survival on Nexus.</p>",
-  "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
-},{
+[
+  {
+    "scope": 1,
+    "headline": "Overview",
+    "content": "<p>The Granok are a boisterous race of battle-tested, hard-drinking mercenaries that lead the Exile Free Companies. Banished from their home planet after a bloody war with the Dominion, the Granok spent the last few centuries lending their considerable combat skills to anyone in the galaxy willing to pay their price. Since finding common cause with the Exiles, these soldiers-of-fortune have made the long journey to Nexus and have sworn to defeat the invading armies of the Dominion no matter what the cost. Rowdy, reckless, and unyielding, the Granok are always leading the charge into battle—they are absolutely vital for the Exiles' continued survival on Nexus.</p>",
+    "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
+    "sourcetype": "loremageddon"
+  },{
+  "scope": 2,
   "headline": "Names",
   "content": "<p>Granok have one name of one or two syllables, often heavy on consonant sounds.</p><h2>Examples:</h2><ul><li>Jekra</li><li>Krull</li><li>Grem</li><li>Durek</li><li>Baxa</li></ul></p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 3,
   "headline": "Speech",
   "content": "<p>Granok voices are low and gravelly. They are generally boisterous and abrasive, prone to telling raunchy stories and exaggerated tales of their exploits in battle.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 4,
   "headline": "Personality Profile",
   "content": "<p>Granok are loud, crass, and jovial. They have a general disregard for anything not directly related to drinking or fighting—which can lead to conflicts with the more practical or sensitive members of the Exiles. Despite their abrasive tendencies and drunken aggressions, the Granok are loyal to the core—fearlessly defending their allies no matter what the odds.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 5,
   "headline": "Motivation",
   "content": "<p>The Granok like to fight, period, but enjoy it even more when they have good reasons for kicking ass, whether it be for cash or personal vendetta. They harbor a deep hatred of the Dominion and take their role as the backbone of the Exile Free Companies very seriously.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 6,
   "headline": "Lifespan",
   "content": "<p>Granok are a robust, long-lived species, and have been known to live 800 years or longer.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 7,
   "headline": "Physical Appearance",
   "content": "<p>Granok bodies are covered in dense, living stone. They average three meters in height and display exaggerated sexual dimorphism. The color of their stony skin can be most any color, but tends towards the grey of granite or the earthier hues of sandstone.</p><p>With the aid of the Aurin, some Granok cultivate plants on their bodies in order to emulate hair. This is a relatively new practice only adopted since they joined the Exiles. Much of the flora used for such decorations originates in the greenhouse of the Gambler's Ruin. Granok are also known to carve motifs into their skin in order to display affiliation or personal aesthetics, a tradition that predates written history on Gnox.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 8,
   "headline": "Physiology",
   "content": "<p>The Granok are a race of geomorphs that meld mineral and organic biological systems into a powerful and durable hybrid. Granok skin is comprised of closely-joined and segmented stone plates. The joints where these plates meet one another are remarkably flexible, allowing for unexpected elasticity and agility. The specific composition of Granok skin varies slightly based on genetic and environmental factors, and this also influences its specific pigmentation. Their sense of touch is roughly equivalent to a human's.</p><p>Internally, Granok possess a stone-like skeletal structure that supports their heavy bodies quite well. Musculature and organs are made up of a substance similar in many respects to dense clay, though specific coloration and cellular structure vary depending on function. Granok blood, if one might call it such, is a thick semi-liquid substance rich in nutrients and minerals.</p><p>Though Granok are capable of sustaining wounds that would kill less hardy species, they scar easily and their natural healing times are correspondingly longer. Scars generally consist of deep pits, gouges, or holes in the skin. The internal structures harden over time as the subject heals, eventually assuming the color and hardness of normal Granok skin.</p><p>Their nutritional requirements are similar to other organic creatures, though they are more concerned with ingestion of specific minerals than with proteins or fats. Though it has yet to be confirmed, it appears that Granok digestive systems can synthesize organic compounds, such as alcohols, sugars, proteins, and fats, into analogs that can be absorbed.</p><p>Granok are differentiated along gender lines, and their mode of reproduction is largely mammalian in nature. Despite a number of myths and outright falsehoods regarding Granok methods of procreation, it must be bluntly stated that the process is remarkably similar to that of other sentient species.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 9,
   "headline": "Homeworld",
   "content": "<p>The Granok are from planet Gnox, a unique world inhabited by a stunning variety of organisms made from living stone.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 10,
   "headline": "History",
   "content": "<p>Until a few hundred years ago, Granok civilization was a primitive scattering of isolated communities with only the most rudimentary level of technology. In time, the Dominion sent Mechari to Gnox to study and observe the Granok—but \"differences of opinion\" led to the Mechari's violent demise. The Dominion considered this an act of war, declaring the Granok a dangerous, uncontrollable race that needed to be eliminated.</p><p>The Dominion attacked Gnox in 1221 AE, assuming they would quickly eradicate the primitive, disorganized Granok tribes. Initial contact with the Granok indicated they would adhere to the Way of Stone, a near-religious doctrine eschewing change and innovation, especially on the battlefield. Unexpectedly, the tradition-bound Granok adapted, capturing Dominion weaponry and ships and turning them to their own use.</p><p>Though the Granok succeeded in driving the Dominion off the planet, the aftermath of the war left Granok society divided between traditionalists and the Free Companies led by Durek Stonebreaker—forcing Durek and his followers to leave Gnox and became traveling mercenaries.</p><p>Using the Dominion spacecraft they had captured, Durek took to the stars with his Free Companies, exploring nearby worlds while keeping an eye out for Dominion scouts. During this time, the Free Companies' technological proficiency advanced in leaps and bounds, helped in no small part by their study of the advanced Dominion hardware they captured during the War of Gnox. Within decades they were building their own weapons, armor, and spaceships. Soon after, the Granok started to ply their trade off-world as mercenaries, making a name for themselves as tough, relentless Warriors that could be counted on as long as the price was right. As they traveled the stars as guns-for-hire, the Granok retained a deep-seated hatred for the Dominion and took every opportunity to settle the score in blood.</p><p>During their travels, the Granok mercs often teamed up with the wandering group of human rebels from planet Cassus. When news of Nexus arrived, the Granok joined with the humans, the Mordesh, and the Aurin, agreeing to serve as their standing military when they arrived on the new world. Now, with the arrival of the Dominion on Nexus, the Granok look forward to cracking some skulls and teaching the Dominion another painful lesson.</p><p>The Granok who remain on Gnox continue to shun contact with the rest of the galaxy, including the Dominion (which, to date, has never returned). The Way of Stone drives them to survive against the odds in their traditional fashion, and any Granok who try to move beyond these cultural restrictions are admonished, exiled, or put to death, depending on the nature of their transgressions.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 11,
   "headline": "Industry",
   "content": "<p>Granok do not engage in heavy industry, only building things necessary to conquer and defend their territory—such as siege engines and defensive bulwarks. They often make their own weapons and armor. They also continue to work as mercenaries when not on duty with the Exile Free Companies.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 12,
   "headline": "Religion",
   "content": "<p>The only things held sacred by the Granok mercs are gold, steel, and alcohol, though on Gnox, they once followed a rigid code of conduct called the Way of Stone. The strict military discipline of the Free Companies has largely replaced any lingering religious tendencies.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 16,
   "headline": "Communities",
   "content": "<p>Granok communities are known as holds. Their leaders are known as chieftains—an anachronism from their more primitive origins—although most prefer the shortened term Chief. Brewmasters are also highly respected members of the hold, and their taverns are usually filled with raucous Granok mercs drinking beer and telling war stories.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 17,
   "headline": "Relations",
   "content": "<h2>Cassians</h2>The Granok consider Cassians cowards who blindly bow to their Luminai masters.<h2>Mechari</h2>Granok consider the Mechari nothing more than pompous, meddling machines that would better serve as scrap or salvage.<h2>Chua</h2>Most Granok see the Chua as little more than trained rodents and afford them the commensurate respect.<h2>Draken</h2>The Granok respect the Draken's pure ferocity and go out of their way to face them on the field of battle.<h2>Exile Humans</h2>Given their shared history of conflicts with the Dominion, Granok respect and admire the embattled humans and consider them kindred spirits.<h2>Aurin</h2>Though outwardly derisive of the Aurin compulsive protectiveness of nature, the Granok secretly respect their grit and determination and are protective of their diminutive allies.<h2>Mordesh</h2>Granok are direct and painfully blunt, preferring to shoot first and ask questions later. This often causes problems with the Mordesh, who by nature are secretive and prefer to make careful plans.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 18,
   "headline": "Faction",
   "content": "<p>The Granok's pure hatred of the Dominion immediately determined their alliance with the Exiles—but they also love a good fight, especially one where they're considered the underdogs. Without the Granok's physical toughness and military expertise, the Exiles would never have been able to withstand the continued attacks of the Dominion military.</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 },{
+  "scope": 19,
   "headline": "Glossary",
   "content": "<p>Terms used primarily by Granok include:</p><h2>Brew</h2>A remarkably potent type of ale created by the Granok. Every hold (and every brewmaster) has a unique variety. One mug can knock out most humans.<h2>Brewmaster</h2>More than just the one who makes the local brew unique to every Granok village, the brewmaster is also a culturally significant figure in any Granok community.<h2>Casking</h2>A specific type of celebration that often marks the end of a conflict, large or small.<h2>Chief</h2>The leader of a Granok community.<h2>Dommies</h2>Soldiers of the Dominion, usually specifically referring to humans. Also refers to the Dominion overall.<h2>Hold</h2>A Granok civilian community.<h2>Hornhead</h2>A Draken.<h2>Merc</h2>A Granok member of a free company.<h2>Merc-work</h2>Catchall term for the sort of jobs a mercenary is called upon to perform.<h2>Mordies</h2>Mordesh. (When used by Granok, it is not considered derogatory).<h2>Rocks</h2>Idiomatic, a euphemism for many different body parts, usually ones considered synonymous with \"nerve\" or \"moxie.\" Specifically could refer to brain (singular—\"Almost knocked my rock off.\"), innards, or genitals. Also: stones, boulders.<h2>Slag</h2>The most versatile and vulgar word in Granok speech, it works as a noun, a verb, and an adjective. Common derivates include slaghead (an idiot), slagged up (drunk or otherwise \"messed up\"), slag off/get slagged (\"go to hell\"), piece of slag (useless or vile person), and full of slag (lying, or at least being partly untruthful). NOTE: Although this term originated with the Granok, it has spread to certain parts of the vernacular, especially among soldiers and those who serve directly with the Granok.<h2>Stone</h2>When used in the singular, refers to steadfastness, determination, and courage. \"He has stone\" is the same as saying \"He is stalwart.\" When used in the plural (stones) has a similar but more vulgar meaning (see \"rocks.\")</p>",
   "source": "http://www.wildstar-online.com/en/game/loremageddon/granok/",
-  "sourcetype": "loremageddon",
-  "expanded": true
+  "sourcetype": "loremageddon"
 }
 ]

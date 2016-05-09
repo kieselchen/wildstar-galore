@@ -122,9 +122,15 @@
                                     <h2>Scope: {{scope.label}}</h2>
                                 </template>
                             </template>
-
                             <div id="articlecontent" inner-h-t-m-l="{{entry.content}}"></div>
-                            <footer><a href="{{entry.source}}" target="_blank"># Source</a></footer>
+                            <footer>
+                                <template is="dom-if"  if="[[isLink(entry.source)]]">
+                                    Source: <a href="{{entry.source}}" target="_blank">{{entry.sourcetype}}</a>
+                                </template>
+                                <template is="dom-if"  if="[[isNotLink(entry.source)]]">
+                                    Source: {{entry.sourcetype}}
+                                </template>
+                            </footer>
                         </iron-collapse>
                     </div>
                 </article>
@@ -166,6 +172,20 @@
                 },
                 isScope: function (scopeid,entryscope) {
                     return scopeid === entryscope;
+                },
+                isLink: function (entrysource) {
+                    var pattern = /^((http|https):\/\/)/;
+
+                    if(pattern.test(entrysource)) {
+                        return true;
+                    }
+                },
+                isNotLink: function (entrysource) {
+                    var pattern = /^((http|https):\/\/)/;
+
+                    if(!pattern.test(entrysource)) {
+                        return true;
+                    }
                 }
             });
         })();
